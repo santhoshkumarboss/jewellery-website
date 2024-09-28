@@ -1,0 +1,65 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:gray;
+}
+.heads{
+    padding:20px;
+    text-align: center;
+}
+.heads h1{
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #f8f2f2;
+}
+.silverhead{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.part{
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    overflow: hidden; 
+    padding:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.part:hover{
+    transform: scale(1.05); /* Slight enlargement on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.contentss{
+    padding: 15px; /* Padding inside item info */
+    text-align: left
+}
+.contentss h3{
+    font-size: 1.5em; /* Title size */
+    margin: 0; /* Remove default margin */
+    color: #333; 
+}
+.contentss p{
+    margin: 5px 0; /* Space between paragraphs */
+    color: #777;
+}
+.grams{
+    font-weight: bold; /* Bold price */
+    font-size: 1.2em; /* Slightly larger price */
+    color: #27ae60; /* Green color for price */
+    margin: 10px 0;
+}
+.shop-now-btn {
+    display: inline-block; /* Make button inline */
+    margin-top: 10px; /* Space above the button */
+    padding: 10px 15px; /* Padding inside button */
+    background-color: #2980b9; /* Blue background for button */
+    color: white; /* White text for button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded button corners */
+    font-weight: bold; /* Bold button text */
+    transition: background-color 0.3s; /* Smooth button hover effect */
+}

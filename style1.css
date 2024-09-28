@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+}
+.contact{
+    position: relative;
+    top: 0%;
+    left: 0px;
+    background-color: gray;
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 80PX;
+}
+.para{
+    margin-top:20px;
+    left: 5%;
+    color: black;
+    background-color: gray;
+}
+.contact h1{
+    background-color: gray;
+    color: white;
+}
+.contactpage{
+    position:relative;
+    padding: 40px 20px;
+    max-width:50%;
+    height: 90vh;
+    background-color:whitesmoke;
+}
+.inputs{
+    margin: 20px 20px;
+    height: 50px;
+    width: 270px;
+    font-size:20px;
+    background-color:white;
+    border:1px solid rgb(224, 208, 208);
+}
+:placeholder-shown{
+    padding-left: 15px;
+}
+.message{
+    width: 580px;
+    height: 150px;
+}
+.send{
+    width:120px;
+    height: 40px;
+    margin-left: 20px;
+    color: aliceblue;
+    background-color:darkgoldenrod;
+    border: none;
+    margin-top: 30px;
+}
+.send:hover{
+    background-color:rgb(243, 176, 8);
+    color: black;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 15px;
+}
+.side{
+    position:absolute;
+    right: 25px;
+    top:190px;
+    font-size:15px;
+    background-color:whitesmoke;
+}
+.side h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.mail{
+    display: flex;
+    margin-bottom: 20px;
+}
+.phone{
+    display: flex;
+}
+.side h2{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}

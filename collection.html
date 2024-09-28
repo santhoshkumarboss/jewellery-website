@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTUS Collections</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            box-sizing:border-box ;
+            margin: 0;
+            padding: 0;
+            background-color: #ab99c9;
+        }
+        .collections-section{
+            padding: 50px;
+            text-align: center;
+            background-color: #ab99c9;
+        }
+        .collections-section h1 {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 40px;
+            font-family: 1000px;
+            font-size: 36px;
+            color:red;
+            margin-top: 10px;
+        }
+        .collection-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .collection-item {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            overflow: hidden;
+            transform: scale(1.05); /* Slight enlargement on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .collection-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .collection-item:hover {
+            transform: translateY(-5px);
+        }
+        .collection-info {
+            padding: 20px;
+        }
+        .collection-info h2 {
+            font-size: 24px;
+            color: #555;
+        }
+        .collection-info p {
+            color: #777;
+            font-size: 16px;
+        }
+        .shop-now-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e71a1a;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+            height:20px;
+            width:100px;
+        }
+        .shop-now-btn:hover {
+            box-shadow:0 0 20px rgb(245, 15, 15);
+            background-color: rgb(211, 14, 14);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="collections-section">
+        <h1>Our Collections</h1>
+        <div class="collection-grid">
+            <!-- Gold Collection -->
+            <div class="collection-item">
+                <img src="gold1.jpg" alt="Gold Collection">
+                <div class="collection-info">
+                    <h2>Gold Collection</h2>
+                    <p>Discover our exclusive gold jewelry, perfect for every occasion.</p>
+                    <a href="goldcollection.html" class="shop-now-btn">show</a>
+                </div>
+            </div>
+
+            <!-- Silver Collection -->
+            <div class="collection-item">
+                <img src="silver.jpg" alt="Silver Collection">
+                <div class="collection-info">
+                    <h2>Silver Collection</h2>
+                    <p>Beautiful and elegant silver jewelry for your daily wear.</p>
+                    <a href="silver.html" class="shop-now-btn">Show</a>
+                </div>
+            </div>
+
+            <!-- Gemstone Collection -->
+            <div class="collection-item">
+                <img src="diamond.jpg" alt="Diamond Collection">
+                <div class="collection-info">
+                    <h2>Diamond Collection</h2>
+                    <p>Explore our vibrant collection of Diamond jewelry, full of color and life.</p>
+                    <a href="#" class="shop-now-btn">Show</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
